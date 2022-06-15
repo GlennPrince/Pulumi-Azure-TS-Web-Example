@@ -1,0 +1,21 @@
+config:
+  azure-native:location: EastUS
+  azure-ts-webapplication:appInsightsKind: web
+  azure-ts-webapplication:appInsightsName: pulumi-insights
+  azure-ts-webapplication:appInsightsType: web
+  azure-ts-webapplication:appServiceKind: app
+  azure-ts-webapplication:appServiceName: pulumi-app
+  azure-ts-webapplication:appServiceSKUName: B1
+  azure-ts-webapplication:appServiceSKUTier: Basic
+  azure-ts-webapplication:configStorageKind: StorageV2
+  azure-ts-webapplication:configStorageSKU: Standard_LRS
+  azure-ts-webapplication:cosmosAccountName: pulumi-dev-cosmosdbaccount
+  azure-ts-webapplication:cosmosContainerName: pulumi-dev-cosmosdbcontainer
+  azure-ts-webapplication:cosmosDBName: pulumi-dev-cosmosdb
+  azure-ts-webapplication:frontEndName: pulumiFrontEnd
+  azure-ts-webapplication:location: EastUS
+  azure-ts-webapplication:resourceGroupName: gpDevPulumi
+  azure-ts-webapplication:storageKind: StorageV2
+  azure-ts-webapplication:storageName: pulumistorage
+  azure-ts-webapplication:storageSKU: Standard_LRS
+  azure-ts-webapplication:webAppName: pulumi-webapp

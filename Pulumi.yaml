@@ -1,0 +1,3 @@
+name: azure-ts-webapplication
+runtime: nodejs
+description: A minimal Azure Native TypeScript Pulumi program
